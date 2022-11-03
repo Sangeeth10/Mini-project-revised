@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Island+Moments&family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+#navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: .5rem 5rem;
+    box-shadow: 5px 5px 20px rgba(0,0,.5);
+    background: url(nav.webp) ;
+    background-position: center;
+    background-size: cover;
+}
+.navbar .navbar-brand{
+    font-size: 42px;
+    font-weight: 800;
+    color: black;
+   }
+   #navbarSupportedContent a{ 
+    
+    font-family: 'Quicksand', sans-serif;
+    color: black !important;
+    font-size: 20px;
+    font-weight: 700;
+    border-bottom: 2px solid transparent;
+   }
+   #navbarSupportedContent a:hover {
+    border-bottom: 2px solid black !important;
+   }
+   
+   .bi{
+    font-size: 30px;
+    padding-right: 5rem;
+    color: black;
+   
+   }
+   
+   #navbarSupportedContent button{
+    background: hsl(25, 59%, 78%);
+    width: 5rem;
+    border-radius: 15px;
+    font-weight: 500;
+}
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+#home{
+    background-image:  linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.5)),url(bg.jpg);
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+    
+}
+#home h1{
+    color: black;
+    font-size: 100px;
+    letter-spacing: 3px;
+}
+#home p{
+    font-size: 35px;
+    color: black;
+}
+#home .input-group {
+    width :40%;
+    height: 45px;
+    }
+#home .signin {
+    background: hsl(25, 59%, 78%);
+}
+#about{
+    background: rgb(207,70,68);
+    background: linear-gradient(315deg, rgba(207,70,68,1) 0%, rgba(254,177,82,1) 64%);
+}
+#about h{
+    font-family: 'Quicksand', sans-serif;
+   background-position: center;
+    font-size: 40px;
+    font-weight: 500;
+    justify-content: center;
+    align-items: center; 
+    
+}
+#about p{
+    font-size: 25px;
+    font-family: 'Dancing Script', cursive;
+
+}
+
+#Products {
+    background-color:#e6c6a0;  
+}
+#Products h1{
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+.card{
+width: 350px;
+height: 350px !important;
+background-color:#e6c6a0 !important;
+border: none !important;
+box-shadow: 15px 20px 20px rgba(0,0,0,.3),
+            inset 4px 4px 10px white;
+border-radius: 20px !important;  
+overflow: hidden;          
+justify-content: center;
+align-items: center;
+margin: 20px 60px;
+}
+.card:hover{
+    box-shadow: inset 5px 5px 10px rgba(0,0,0,.3),
+                inset -4px -4px 10px white
+
+}
+.card p{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+#contact img{
+    height: 90%;
+}
+.box{
+    padding-top: 10%;
+    width: 80%;
+    background-color: #8d5524;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+#contact input{
+    margin: 10px 0px;
+}
+#contact textarea{
+    margin: 10px 0px;
+}
+#contact button{
+    background-color:#c77732;
+}
+
+footer{
+    width: 100%;
+    height: 30px;
+    background: rgba(0,0,0,.8);
+    text-align: center;
+    color: white;    
+    }
