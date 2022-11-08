@@ -5,7 +5,8 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-#navbar{
+
+   #navbar{
     position: sticky;
     top: 0;
     left: 0;
@@ -39,7 +40,6 @@
     color: black;
    
    }
-   
    #navbarSupportedContent button{
     background: hsl(25, 59%, 78%);
     width: 5rem;
@@ -54,7 +54,7 @@ section{
     align-items: center; 
 }
 #home{
-    background-image:  linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.5)),url(bg.jpg);
+    background-image:  linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.5)),url(bg.jpg);
     background-size: cover;
     background-position: center;
     flex-direction: column;
@@ -97,6 +97,7 @@ section{
 
 #Products {
     background-color:#e6c6a0;  
+   
 }
 #Products h1{
     font-size: 50px;
@@ -116,6 +117,7 @@ justify-content: center;
 align-items: center;
 margin: 20px 60px;
 }
+
 .card:hover{
     box-shadow: inset 5px 5px 10px rgba(0,0,0,.3),
                 inset -4px -4px 10px white
@@ -154,4 +156,45 @@ footer{
     background: rgba(0,0,0,.8);
     text-align: center;
     color: white;    
+    }
+
+    #atb{
+        background-color: #e6c6a0;
+    }
+
+    #atb .single-pro-img{
+        width: 200%;
+        margin-right: 100px;
+        margin-left: 20px;
+       margin-top: 5%;
+    }
+    #atb .single-product-details{
+        padding-top: 100px;
+    }  
+
+
+
+    #atb .single-product-details h4{
+        padding: 40px 0 20px 0;
+    }
+    #atb .single-product-details h2{
+        font-size: 26px;
+    }
+    #atb .single-product-details select{
+        display: block;
+        padding: 5px 10px;
+        margin-bottom: 10px;
+    }
+    #atb .single-product-details input{
+        width: 50px;
+        height: 47px;
+        padding-left: 10px;
+        font-size: 16px;
+        margin-right: 10px;
+    }
+    #atb .single-product-details button{
+        background-color: #c77732;
+    }
+    #atb .single-product-details p{
+        line-height: 30px;
     }
